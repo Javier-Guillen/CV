@@ -1,0 +1,19 @@
+body{
+    background-color: #EAF6F6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr{
+    background-color: #EAF6F6;
+    border-style: none;
+    border-top: dotted 8px;
+    border-color: rgb(3, 5, 5); 
+    height: fit-content;
+    width: 40%;
+}
+h1{
+    color: #66BFBF;
+}
+h2{
+    color: #66BFBF;
+}
