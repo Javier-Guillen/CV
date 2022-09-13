@@ -1,15 +1,20 @@
 /* Palette: #C2DED1 #ECE5C7 #CDC2AE #354259 */
 
+/* *   {
+    margin:0;
+    padding:0;
+    } */
+
 body{
     background-color: white;
     text-align: center;
+    margin: 0px;
 }
 h1{
-    margin-top: 50px;
-    margin-bottom: 0px;
     font-size: 4rem;
     color: #66BFBF;
     line-height: 2;
+    margin-top: 0px;
 }
 
 h2{
@@ -42,45 +47,73 @@ p{
     top: 200px;
 }
 
+.mountain{
+    position: relative;
+    top: 4px;
+}
 .middle-container{
+    margin-top: 10px;
 }
 
+.personal_description{
+    color: #40514E;
+    margin-bottom: 50px;
+}
+
+hr{
+    background-color: #EAF6F6;
+    border-style: none;
+    border-top: dotted 4px;
+    border-color: rgb(54, 56, 56); 
+    height: fit-content;
+    width: 10%;
+}
 .skill-row1{
     width: 50%;
     margin: auto;
-    margin-bottom: 200px;
-    /* text-align: left; */
+    margin-bottom: 100px;
+    text-align: left;
 }
 .web_dev_pic{
     float: left;
     display: block;
     margin-left: auto;
-    margin-right: auto;
-    width: 25%;
+    margin-right: 5%;
+    width: 15%;
 }
 .h3_web_dev{
 }
-.p_I_can_code{
+.web_dev_description{
 
 }
 .skill-row2{
     width: 50%;
     margin: auto;
-    /* text-align: left; */
+    margin-bottom: 10%;
+    text-align: left;
 }
 
 
-.skiills-pic{
+.skills_pic{
     width: 25%;
     display: block;
-    margin-left: auto;
+    margin-left: 5%;
     margin-right: auto;
     float: right;
 }
 
+.interpersonal_description{
+    
+}
 .bottom-container{
-
+    background-color: #66BFBF;
+}
+.contact-me-btn{
+    margin-bottom: 50px;
 }
 
+.footer-link{
+    color: #11999E;
+}
 
 
