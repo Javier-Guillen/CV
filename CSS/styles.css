@@ -9,6 +9,8 @@ body{
     background-color: white;
     text-align: center;
     margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 h1{
     font-size: 4rem;
@@ -144,17 +146,17 @@ hr{
 
 .footer-link{
     color: #11999E;
+    text-decoration: none;
 }
 
+.footer-link:hover {
+    color: #EAF6F6; 
+}
 
 .copy-right{
     color: #EAF6F6;
     text-decoration: none;
+    margin-bottom: 0;
 }
 
 
-/* Para que el link no se vea subrayado */
-a:link { text-decoration: none; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:active { text-decoration: none; }
